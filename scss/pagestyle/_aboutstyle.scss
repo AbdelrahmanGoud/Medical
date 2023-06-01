@@ -1,0 +1,124 @@
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;       
+}
+.acout-sce-1
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px 0;
+   background-color: #469fe4; 
+   @media screen and (max-width:767px)
+    {
+          display: flex;
+          flex-direction: column !important;
+          align-items: center;
+          padding: 50px 0;
+          background-color: #469fe4;  
+   }
+   a
+   {
+     text-decoration: none !important;     
+   }     
+   
+   .a-1
+   {
+      font-weight: bold;
+      color: rgb(235, 227, 227);    
+   }
+   .a-2
+   {
+     color: white;  
+     font-weight: bold;    
+   }
+}
+.about-sec-2
+{
+   padding: 60px 0;
+   .divid-about-sec-2
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 20px;
+   }
+   .about-sec-2-item
+   {
+      .dash
+      {
+        width: 50px;
+        height: 0.3px;
+        background-color: rgb(234, 234, 234);
+
+      }
+      p
+      {
+         color: #606060;
+         font-size: 1.04rem;
+      }
+   }
+}
+.about-sec-3
+{
+   background-color: #f8f8f8;
+   padding: 50px 0;
+   p
+   {
+      color: #606060;
+   }
+   .about-sec-3-item
+   {
+      padding-bottom: 50px;
+   }
+   .disc-about-sec-3
+   {
+      text-align: center;
+      i
+      {
+         font-size: 60px;
+         color: #469fe4;
+      }
+   }
+}
+.about-sec-4
+{
+   padding: 100px 0;
+   background-color: #469fe4;
+   text-align: center;
+   .about-sec-4-item
+   {
+      i
+      {
+         font-size: 45px;
+         margin-bottom: 20px;
+          color: rgba(251, 251, 251, 0.9);
+      }
+      .value2
+      {
+         font-size: 60px;
+         color: white;
+      }
+      h5
+      {
+         font-size: 30px;
+         color: white;
+      }
+   }
+}
+.about-sec-5
+{
+   padding: 100px 0;
+   background-color: #f8f8f8;
+   .item-2
+   {
+      padding-bottom: 50px;
+      p
+      {
+         color: #606060;
+         font-size: 1.04rem;
+      }
+   }
+}

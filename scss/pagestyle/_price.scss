@@ -1,0 +1,207 @@
+.pric-sec-2
+{
+   padding: 120px 0;   
+   p
+   {
+      color: #606060;      
+   }    
+}
+.price-sec-3
+{
+  padding: 60px 0;
+  background-color: #f8f8f8;
+  .price-itme-2
+  {
+    background-color: white;       
+    text-align: center;
+    ul
+    {
+      li
+      {
+         list-style-type: none;
+         line-height: 2rem; 
+         color: #606060;
+      }  
+  
+    }   
+    p
+    {
+      color: #606060;    
+    }
+    h3
+      {
+          font-size: 40px;
+          width: 100%;
+      }  
+      h4
+      {
+          font-size: 50px;
+
+      } 
+      .but-item-2
+      {
+         background-color: #ddd; 
+         font-weight: bold;
+      }
+      .but-item-2:hover
+      {
+        background-color: #333; 
+        color: white; 
+      }
+      .spatail-price
+      {
+          background-color: #00c482;
+          margin-bottom: 116.5px;
+      }
+      .but-item-spail
+      {
+          background-color: #469fe4;
+          color: white;
+          font-weight: bold;
+      }
+      .but-item-spail:hover
+      {
+          background-color: #333;
+          
+      }
+  }        
+}
+.blog-sec
+{
+  padding: 80px 0;
+  .blog-item
+  {
+    border-bottom: 0.3px solid #606060;
+    border-left: 0.3px solid #606060;
+    border-right: 0.3px solid #606060;
+
+  }
+  .blog-img
+  {
+    width: 100%;
+  }
+  .blog-item-2
+  {
+    ul
+    {
+      i
+      {
+        margin-right: 15px;
+      }
+      li
+      {
+        list-style-type: none;
+        line-height: 3rem;
+        color: #606060;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+    }
+    .blog-lis:hover
+    {
+      color: #469fe4;
+    }
+
+  }
+  .disc-final
+  {
+    background-color: #469fe4;
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+    position: relative;
+    i
+    {
+      position: absolute;
+      right: 15px;
+      bottom: 10px;
+      font-size: 50px;
+      color: white;
+    }
+    p
+    {
+      font-size: 20px;
+      color: white;
+    }
+  }
+  .disc-final:hover
+  {
+    background-color: #333;
+  }
+  .btn
+  {
+    font-weight: bold;
+  }
+  .btn:hover
+  {
+    color: #469fe4;
+
+  }
+  .btn:hover i
+  {
+      margin-left: 5px;
+  }
+ .spatil-cas-blog
+ {
+     display: none;
+ }
+ @media screen and (max-width:767px)
+  {
+       .cas-1
+       {
+          display: none;
+       }
+       .spatil-cas-blog
+       {
+         display: inline-block;
+       }
+ }
+}
+.cont-sec-2
+{
+  padding: 100px 0;
+  .butcont
+  {
+    background-color: #469fe4 ;
+    color: white;
+  }
+  .cont-item
+  {
+    p
+    {
+      color: #606060;
+      font-size: 1.04rem;
+    }
+    ul
+    {
+      li
+      {
+        list-style-type: none;
+        line-height: 3rem;
+        color: #606060;
+        font-size: 1.04rem;
+        i
+        {
+          font-size: 20px;
+          margin-right: 15px;
+          color: white;
+          padding: 10px;
+          background-color: #469fe4;
+          border-radius: 50%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+ .map
+ {
+  overflow: hidden;
+ }
+}
+
+
+.cont-map
+{
+  overflow: hidden !important;
+}
