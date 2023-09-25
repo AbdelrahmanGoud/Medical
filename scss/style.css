@@ -51,14 +51,15 @@
   color: black !important;
   width: 100%;
 }
-.navbar .logoNav {
-  width: 200px;
-}
 .navbar .nav-link {
   font-weight: bold;
 }
 .navbar .nav-link:hover, .navbar .active {
   color: #469fe4 !important;
+}
+
+.logoNav {
+  width: 150px;
 }
 
 .cont-home {
