@@ -61,7 +61,7 @@
    color: black !important;
    width: 100%;
    .logoNav {
-      width: 50%;
+      width: 200px;
    }
 
    .nav-link {
@@ -72,7 +72,11 @@
       color: #469fe4 !important;
    }
 }
-
+.cont-home
+{
+   position: static;
+   z-index: 9000000000;
+}
 .head-back {
    overflow: hidden;
 
